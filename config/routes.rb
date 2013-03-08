@@ -1,6 +1,7 @@
 Flourish::Application.routes.draw do
 
   get "home/index"
+  get "home/help"
 
   devise_for :users
 

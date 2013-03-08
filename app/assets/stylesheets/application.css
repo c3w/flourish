@@ -12,7 +12,6 @@
  *= require_tree .
 */
 
-body {background: #acf; color: #88f; font-family: sans-serif;}
 p.notice {padding: 4px; border: 1px solid green; background: #afa; color: black; }
 p.alert {padding: 4px; border: 1px solid red; background: #faa; color: black; }
 #user_nav { 
@@ -21,4 +20,105 @@ p.alert {padding: 4px; border: 1px solid red; background: #faa; color: black; }
   background: #8af;
   color: black;
 }
-a {color: black;}
+
+body {  background: #202020; color: #c8d8c8; font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+th   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #2030f0; background-color: #d0d000} 
+th.normal   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #2030f0; background-color: #d0d000} 
+td.hilitsmall   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #00a0ff; background-color: #103040} 
+td.tintsmall   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #00a0ff; background-color: #103040} 
+th.head   {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #6080a0; background-color: #e0e0e8} 
+td.tint   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #f0f040; background-color: #305070}
+td.worklogmanual   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #f0f040; background-color: #305070}
+td   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #c8d8c8; }
+td.light   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #008000; background-color: white}
+td.light   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #206010; background-color: white}
+td.help   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #00ff00; background-color: #00a000}
+td.lit   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #c0c0c0; background-color: #00c000}
+td.today   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #00f000; background-color: #00a000}
+td.tomorrow   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #f0f000; background-color: #a0a000}
+td.LEAD   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #f0f000; font-weight: bold; background-color: #a0a000}
+td.OPEN   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #f0f000; font-weight: bold; background-color: #a0a000}
+td.BILLPEND   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #f0f000; font-weight: bold; background-color: #a0a000}
+td.pastdue   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #f03000; background-color: #a01000}
+td.EXPIREPEND   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #f03000; font-weight: bold; background-color: #a01000}
+td.ACTIONREQUIRED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #f03000; background-color: #a01000}
+td.dark   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: white; background-color: #70a070}
+td.HW   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #008030; background-color: #f0f030}
+td.MRC   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f000; background-color: #202020}
+td.NEW   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #808080; background-color: #f0f0f8}
+td.BILLINGEXPIRED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #808080; background-color: #f0f0f8}
+td.NOBILLING   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #808080; background-color: #f0f0f8}
+td.NRC   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #808080; background-color: #202020}
+td.ARC   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #c0c0f8; background-color: #202020}
+td.GENERAL   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #808080; background-color: #f0f0f8}
+td.ADDRESSQUAL   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #f03000; background-color: #a01000}
+td.ACCEPTED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: white; background-color: #8080f0}
+td.TELCOFOC   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #c0c0c0; background-color: #808000}
+td.COVADFOC   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #f09000; background-color: #808000}
+td.JEOPARDY   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ff4000; background-color: #a01000}
+td.TROUBLE   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ff4000; background-color: #a01000}
+td.ABUSE   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ff4000; background-color: #a01000}
+td.SUSPENDPEND   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ff4000; background-color: #a01000}
+td.SUSPENDED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #cc3000; background-color: #600000}
+td.CANCELPEND   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000; background-color: #a0a0a0}
+td.DEPROVISIONED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000; background-color: #808080}
+td.CANCELLED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #c0c0c0; background-color: #000000}
+td.BILLEXPIRED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #c0c0c0; background-color: #000000}
+td.EXPIRED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #c0c0c0; background-color: #000000}
+td.INSTALLED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #f0f080; background-color: #909090}
+td.CLOSED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #d0d0d0; background-color: #909090}
+td.ABORTED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #606060; background-color: #a0a0a0}
+td.CONFIRMNONE   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #a0a0a0; background-color: #f0f0f8}
+td.CONFIRMYES   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #00f000; background-color: #00a000}
+td.CONFIRMCONFLICT   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #f03000; background-color: #a01000}
+td.hr   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00a000; background-color: #006000}
+td.normal   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #c8d8c8; background-color: 103040;}
+td.worklogauto   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #c8d8c8; background-color: 103040;}
+td.normalsmall   {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: light; color: #c8d8c8; background-color: #006000}
+td.ACTIVE   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f000; background-color: #00a000}
+td.BILLACTIVE   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f000; background-color: #00a000}
+td.CUSTOMERPEND   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f000; background-color: #00a000}
+td.COMPLETED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f000; background-color: #00a000}
+td.VENDORPEND   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f000; background-color: #00a000}
+td.CONTRACTSENT   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #404040; background-color: #c0c0c8}
+td.CONTRACTRCVD   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #606060; background-color: #f0f0f8}
+td.SALESLOST   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #c0c000; background-color: #909000}
+td.SALESTARGET   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #606000; background-color: #c0c000}
+td.SALES   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #606000; background-color: #c0c000}
+td.SALESQUOTE   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #f0f000; background-color: #a0a000}
+td.HELPDESK   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #f0a000; background-color: #a06000}
+td.PROVISIONING   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #904000; background-color: #f0a000}
+td.PROVISIONED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #004090; background-color: #00a0f0}
+td.BILLENTERED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f0a0; background-color: #009040}
+td.money   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #00f0a0; background-color: #202020}
+td.BILLING   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ff00b0; background-color: #900040}
+td.BILLINGACTIVE   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ff00b0; background-color: #900040}
+td.BILLINGENTERED   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #ff00b0; background-color: #900040}
+form   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+h1   {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 16pt; font-weight: bold}
+h5 { font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #808080}
+h4 {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt}
+font.worklogauto   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #308000; background-color: #c8d8c8}
+font.normal   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: light; color: #c8d8c8; }
+A:link    {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; text-decoration: none; color: white}
+A:visited {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; text-decoration: none; color: white}
+A:hover   {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; text-decoration: none; color: white}
+A:link.nav2 {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #008000}
+A:visited.nav2 {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #008000}
+A:hover.nav2 {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #ffa050}
+A:link.nav {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #ff7030}
+A:visited.nav {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #ff7030}
+A:hover.nav {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #ffa050;}
+A:link.help {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #ffa050;}
+A:visited.help {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #ffa050;}
+A:hover.help {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #ffa050;}
+A:link.tiny    {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; text-decoration: none; color: #f08000}
+A:visited.tiny {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; text-decoration: none; color: #f08000}
+A:visited.tiny {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #f08000}
+A:hover.tiny {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #90ff00}
+.nav {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000}
+.nav2 {  font-family: Verdana, Arial, Helvetica, sans-serif; color: #008000}
+
+
+
+

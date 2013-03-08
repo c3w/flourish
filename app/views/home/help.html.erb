@@ -1,0 +1,110 @@
+
+<p>
+
+Use ACCOUNT STATE to move accounts through the process of sales,
+provisioning, and billing.  The FLAG is used for relevant views.
+<table cellpadding=3 cellspacing=1 border=0>
+<th>account state</th><th>flag</th><th>description</th><th>help</th><tr>
+<td class=SALESTARGET>SALESTARGET</td>
+<td class=worklogauto>LEAD</td>
+<td class=worklogmanual>Sales Target</td>
+<td class=worklogauto>Targetted for Sale; probably by some automated tactic</td>
+<tr>
+<td class=SALESQUOTE>SALESQUOTE</td>
+<td class=worklogauto>LEAD</td>
+<td class=worklogmanual>Sent Quote to Customer</td>
+<td class=worklogauto></td>
+<tr>
+<td class=SALESLOST>SALESLOST</td>
+<td class=worklogauto>LOST</td>
+<td class=worklogmanual>Lost Sale</td>
+<td class=worklogauto></td>
+<tr>
+<td class=CONTRACTSENT>CONTRACTSENT</td>
+<td class=worklogauto>LEAD</td>
+<td class=worklogmanual>Sent Contract to Customer</td>
+<td class=worklogauto></td>
+<tr>
+<td class=CONTRACTRCVD>CONTRACTRCVD</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Contract Received</td>
+<td class=worklogauto>Provisioning will now proceed</td>
+<tr>
+<td class=PROVISIONING>PROVISIONING</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Ordered and in Provisioning</td>
+<td class=worklogauto></td>
+<tr>
+<td class=JEOPARDY>JEOPARDY</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Trouble with Provisioning</td>
+<td class=worklogauto></td>
+<tr>
+<td class=PROVISIONED>PROVISIONED</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Provisioned and Billable</td>
+<td class=worklogauto></td>
+<tr>
+<td class=BILLENTERED>BILLENTERED</td>
+<td class=worklogauto>CLOSED</td>
+<td class=worklogmanual>Billing Entered</td>
+<td class=worklogauto></td>
+<tr>
+<td class=SUSPENDPEND>SUSPENDPEND</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Suspension Pending</td>
+<td class=worklogauto></td>
+<tr>
+<td class=SUSPENDED>SUSPENDED</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Provisioning Suspended</td>
+<td class=worklogauto></td>
+<tr>
+<td class=CANCELPEND>CANCELPEND</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Cancel Pending</td>
+<td class=worklogauto></td>
+<tr>
+<td class=DEPROVISIONED>DEPROVISIONED</td>
+<td class=worklogauto>OPEN</td>
+<td class=worklogmanual>Account Deprovisioned</td>
+<td class=worklogauto></td>
+<tr>
+<td class=CANCELLED>CANCELLED</td>
+<td class=worklogauto>CANCELLED</td>
+<td class=worklogmanual>Cancelled by billing</td>
+<td class=worklogauto></td>
+<tr>
+</table><p>
+WORKLOG TYPES
+<table cellpadding=3 cellspacing=1 border=0>
+<th>worklogtype</th><th>description</th><th>help</th><tr>
+<td class=GENERAL>GENERAL</td>
+<td class=worklogmanual>General</td>
+<td class=worklogauto></td>
+<tr>
+<td class=BILLING>BILLING</td>
+<td class=worklogmanual>Billing</td>
+<td class=worklogauto></td>
+<tr>
+<td class=SALES>SALES</td>
+<td class=worklogmanual>Sales</td>
+<td class=worklogauto></td>
+<tr>
+<td class=HELPDESK>HELPDESK</td>
+<td class=worklogmanual>Help Desk</td>
+<td class=worklogauto></td>
+<tr>
+<td class=TROUBLE>TROUBLE</td>
+<td class=worklogmanual>Trouble Ticket</td>
+<td class=worklogauto></td>
+<tr>
+<td class=ABUSE>ABUSE</td>
+<td class=worklogmanual>Abuse Report</td>
+<td class=worklogauto></td>
+<tr>
+<td class=PROVISIONING>PROVISIONING</td>
+<td class=worklogmanual>Provisioning Worklog</td>
+<td class=worklogauto></td>
+<tr>
+</table><p>
